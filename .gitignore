@@ -1,0 +1,5 @@
+.templates/
+.vscode/
+template-sample/
+__pycache__/
+*.pyc
