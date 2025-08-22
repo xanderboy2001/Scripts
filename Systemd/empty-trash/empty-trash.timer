@@ -1,0 +1,10 @@
+[Unit]
+Description=Run empty-trash.service daily
+
+[Timer]
+OnCalendar=daily
+Persistent=true
+Unit=empty-trash.service
+
+[Install]
+WantedBy=timers.target
