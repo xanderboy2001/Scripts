@@ -27,23 +27,11 @@
 
 
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/xanderboy2001/Scripts">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
 <h3 align="center">Scripts</h3>
 
   <p align="center">
     A collection of personal scripts and systemd units to automate tasks on Linux
     <br />
-    <a href="https://github.com/xanderboy2001/Scripts"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/xanderboy2001/Scripts">View Demo</a>
-    &middot;
     <a href="https://github.com/xanderboy2001/Scripts/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
     <a href="https://github.com/xanderboy2001/Scripts/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
@@ -58,19 +46,13 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -83,6 +65,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+Scripts are organized by platform into their respective directories. There's no real theme here, just a small collection of scripts I thought I'd share in case anyone thinks they might be helpful to use or learn from.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -90,16 +74,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Clone the repo to get all the files, or individually download them.
 
 ### Installation
 
@@ -159,9 +134,8 @@ Project Link: [https://github.com/xanderboy2001/Scripts](https://github.com/xand
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [emargi/Best-README-template](https://github.com/othneildrew/Best-README-Template/blob/main/README.md)
+* [Choose an Open Source License](https://choosealicense.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
