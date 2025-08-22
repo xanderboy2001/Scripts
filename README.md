@@ -152,7 +152,7 @@ Project Link: [https://github.com/xanderboy2001/Scripts](https://github.com/xand
 [issues-shield]: https://img.shields.io/github/issues/xanderboy2001/Scripts.svg?style=for-the-badge
 [issues-url]: https://github.com/xanderboy2001/Scripts/issues
 [license-shield]: https://img.shields.io/github/license/xanderboy2001/Scripts.svg?style=for-the-badge
-[license-url]: https://github.com/xanderboy2001/Scripts/blob/master/LICENSE.txt
+[license-url]: https://github.com/xanderboy2001/Scripts/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/alexander-e-christian
 [product-screenshot]: images/screenshot.png
