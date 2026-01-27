@@ -17,8 +17,8 @@ __base="$(basename "${__file}" .sh)"
 
 # Global defaults
 USE_GITIGNORE=true
-CODEBASE_DIR="${__dir}"
-GITIGNORE_PATH="${__dir}/.gitignore"
+CODEBASE_DIR="$PWD"
+GITIGNORE_PATH="${CODEBASE_DIR}/.gitignore"
 find_cmd=()
 files=()
 final_output=""
@@ -59,7 +59,7 @@ read_args() {
 }
 
 build_find_cmd() {
-		find_cmd=("find" "$CODEBASE_DIR" "-type" "f" "-not" "-name" ".gitignore")
+		find_cmd=("find" "$CODEBASE_DIR" "-path" "*/.git" "-prune" "-o" "-type" "f" "-not" "-name" ".gitignore")
 
 		if [[ "$USE_GITIGNORE" = true ]] && [[ -f "$GITIGNORE_PATH" ]]; then
 				while IFS= read -r line || [[ -n "$line" ]]; do
