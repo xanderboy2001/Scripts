@@ -59,7 +59,7 @@ read_args() {
 }
 
 build_find_cmd() {
-		find_cmd=("find" "$CODEBASE_DIR" "-path" "*/.git" "-prune" "-o" "-type" "f" "-not" "-name" ".gitignore")
+		find_cmd=("find" "$CODEBASE_DIR" "-path" "*/.git" "-prune" "-o" "-type" "f" "-not" "-name" ".gitignore" "-not" "-iname" "license*" "-not" "-name" "uv.lock")
 
 		if [[ "$USE_GITIGNORE" = true ]] && [[ -f "$GITIGNORE_PATH" ]]; then
 				while IFS= read -r line || [[ -n "$line" ]]; do
